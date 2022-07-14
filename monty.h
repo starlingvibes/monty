@@ -30,6 +30,7 @@
 
 /* Fix 'getline' issue */
 #define _GNU_SOURCE_
+#include <stdio.h>
 
 #include <ctype.h>
 #include <fcntl.h>
